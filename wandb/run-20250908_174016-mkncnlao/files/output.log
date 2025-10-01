@@ -1,0 +1,92 @@
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 1 | Reward: 0.140
+Episode 1 finished | Reward: 0.140
+Episode 2 finished | Reward: 0.127
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 3 | Reward: 0.192
+Episode 3 finished | Reward: 0.192
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 4 | Reward: 0.417
+Episode 4 finished | Reward: 0.417
+Episode 5 finished | Reward: 0.332
+Episode 6 finished | Reward: -0.102
+Episode 7 finished | Reward: 0.266
+Episode 8 finished | Reward: 0.301
+Episode 9 finished | Reward: 0.314
+Episode 10 finished | Reward: -0.212
+Episode 11 finished | Reward: 0.104
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 12 | Reward: 0.421
+Episode 12 finished | Reward: 0.421
+Episode 13 finished | Reward: -0.160
+Episode 14 finished | Reward: -0.090
+Episode 15 finished | Reward: 0.215
+Episode 16 finished | Reward: -0.112
+Episode 17 finished | Reward: -0.305
+Episode 18 finished | Reward: -0.116
+Episode 19 finished | Reward: 0.105
+Episode 20 finished | Reward: -0.603
+Episode 21 finished | Reward: 0.057
+Episode 22 finished | Reward: -0.675
+Episode 23 finished | Reward: 0.328
+Episode 24 finished | Reward: 0.113
+Episode 25 finished | Reward: -0.038
+Episode 26 finished | Reward: 0.066
+Episode 27 finished | Reward: -0.259
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 28 | Reward: 1.529
+Episode 28 finished | Reward: 1.529
+Episode 29 finished | Reward: -0.237
+Episode 30 finished | Reward: 0.195
+Episode 31 finished | Reward: -0.518
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 32 | Reward: 3.196
+Episode 32 finished | Reward: 3.196
+Episode 33 finished | Reward: -0.374
+Episode 34 finished | Reward: -0.059
+Episode 35 finished | Reward: -0.362
+Episode 36 finished | Reward: 0.455
+Episode 37 finished | Reward: -0.588
+Episode 38 finished | Reward: -0.429
+Episode 39 finished | Reward: -0.746
+Episode 40 finished | Reward: -0.181
+Episode 41 finished | Reward: 0.548
+Episode 42 finished | Reward: -0.890
+Episode 43 finished | Reward: -0.020
+Episode 44 finished | Reward: -0.910
+Episode 45 finished | Reward: 0.372
+Episode 46 finished | Reward: 1.166
+Episode 47 finished | Reward: 0.377
+Episode 48 finished | Reward: 0.980
+Episode 49 finished | Reward: 1.096
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+Model checkpoint saved at episode 50
+Episode 50 finished | Reward: 2.656
+Episode 51 finished | Reward: 1.754
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 52 | Reward: 3.312
+Episode 52 finished | Reward: 3.312
+Episode 53 finished | Reward: 2.779
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 54 | Reward: 5.578
+Episode 54 finished | Reward: 5.578
+Episode 55 finished | Reward: 2.326
+Episode 56 finished | Reward: 5.265
+Episode 57 finished | Reward: 4.267
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 58 | Reward: 8.790
+Episode 58 finished | Reward: 8.790
+Episode 59 finished | Reward: 5.185
+Episode 60 finished | Reward: 7.972
+Episode 61 finished | Reward: 4.141
+Episode 62 finished | Reward: 7.563
+Episode 63 finished | Reward: 5.181

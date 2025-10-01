@@ -1,0 +1,16 @@
+{
+  "os": "Linux-6.8.0-79-generic-x86_64-with-glibc2.35",
+  "python": "CPython 3.11.12",
+  "startedAt": "2025-09-08T08:24:32.293982Z",
+  "args": [
+    "--wandb"
+  ],
+  "program": "/home/home/soarm_tutorial/isaac_env/env/train.py",
+  "codePath": "isaac_env/env/train.py",
+  "codePathLocal": "isaac_env/env/train.py",
+  "email": "pakbohyong0717@gmail.com",
+  "root": "/home/home/soarm_tutorial",
+  "host": "home",
+  "executable": "/home/home/isaacsim/_build/linux-x86_64/release/kit/python/bin/python3",
+  "writerId": "pxyyqe7dkoute4ckk8sqn0q9gn90leg8"
+}

@@ -1,0 +1,90 @@
+_wandb:
+    value:
+        cli_version: 0.21.3
+        e:
+            6pgw8pflvwgthqc5qlhkzefakus61tg3:
+                args:
+                    - --wandb
+                codePath: isaac_env/env/train.py
+                codePathLocal: isaac_env/env/train.py
+                cpu_count: 10
+                cpu_count_logical: 10
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "983247642624"
+                        used: "375895048192"
+                email: pakbohyong0717@gmail.com
+                executable: /home/home/isaacsim/_build/linux-x86_64/release/kit/python/bin/python3
+                gpu: NVIDIA GeForce RTX 5070
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 6144
+                      memoryTotal: "12820938752"
+                      name: NVIDIA GeForce RTX 5070
+                      uuid: GPU-c450e067-8610-e678-c4cb-409ef308a10f
+                host: home
+                memory:
+                    total: "33259458560"
+                os: Linux-6.8.0-79-generic-x86_64-with-glibc2.35
+                program: /home/home/soarm_tutorial/isaac_env/env/train.py
+                python: CPython 3.11.13
+                root: /home/home/soarm_tutorial
+                startedAt: "2025-09-23T04:11:34.521530Z"
+                writerId: 6pgw8pflvwgthqc5qlhkzefakus61tg3
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.13
+            "5": 0.21.3
+            "12": 0.21.3
+            "13": linux-x86_64
+env:
+    value:
+        max_steps: 500
+model:
+    value:
+        hidden_sizes:
+            - 256
+            - 128
+            - 64
+        save_path: /home/home/soarm_tutorial/policy/PPO/checkpoints
+robot:
+    value:
+        joint_limits:
+            lower:
+                - -1.5708
+                - 0
+                - 0
+                - -3.1416
+                - -1.5708
+                - -0.1745
+            upper:
+                - 1.5708
+                - 3.1416
+                - 3.1416
+                - 0
+                - 1.5708
+                - 0.8727
+train:
+    value:
+        action_std_decay: 0.01
+        batch_size: 64
+        clip_eps: 0.2
+        epochs: 10
+        gamma: 0.99
+        lam: 0.95
+        learning_rate: "3e-4"
+        min_action_std: 0.1
+        rollout_size: 128
+        save_interval: 500
+        total_episodes: 10000

@@ -1,0 +1,17 @@
+train:
+  total_episodes: 500
+  rollout_size: 256
+  batch_size: 64
+  epochs: 10
+  learning_rate: 1e-5
+  gamma: 0.99
+  lam: 0.95
+  clip_eps: 0.2
+  save_interval: 100
+
+env:
+  max_steps: 100    # episode length
+
+model:
+  hidden_sizes: [128, 64]   # actor-critic MLP 깊이와 크기
+  save_path: "/home/home/soarm_tutorial/policy/PPO/checkpoints"

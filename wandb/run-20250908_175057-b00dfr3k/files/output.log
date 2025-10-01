@@ -1,0 +1,291 @@
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 1 | Reward: 0.655
+Episode 1 finished | Reward: 0.655
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 2 | Reward: 1.624
+Episode 2 finished | Reward: 1.624
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 3 | Reward: 3.444
+Episode 3 finished | Reward: 3.444
+Episode 4 finished | Reward: 2.643
+Episode 5 finished | Reward: 3.171
+Episode 6 finished | Reward: 2.747
+Episode 7 finished | Reward: 2.114
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 8 | Reward: 3.761
+Episode 8 finished | Reward: 3.761
+Episode 9 finished | Reward: 1.917
+Episode 10 finished | Reward: 1.983
+Episode 11 finished | Reward: 3.064
+Episode 12 finished | Reward: 2.390
+Episode 13 finished | Reward: 1.830
+Episode 14 finished | Reward: 2.104
+Episode 15 finished | Reward: 2.207
+Episode 16 finished | Reward: 1.501
+Episode 17 finished | Reward: 2.078
+Episode 18 finished | Reward: 1.438
+Episode 19 finished | Reward: 3.057
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 20 | Reward: 4.259
+Episode 20 finished | Reward: 4.259
+Episode 21 finished | Reward: 1.261
+Episode 22 finished | Reward: 2.117
+Episode 23 finished | Reward: 4.024
+Episode 24 finished | Reward: 3.103
+Episode 25 finished | Reward: 3.111
+Episode 26 finished | Reward: 2.263
+Episode 27 finished | Reward: 2.353
+Episode 28 finished | Reward: 2.377
+Episode 29 finished | Reward: 1.258
+Episode 30 finished | Reward: 2.484
+Episode 31 finished | Reward: 2.044
+Episode 32 finished | Reward: 2.306
+Episode 33 finished | Reward: 2.676
+Episode 34 finished | Reward: 3.194
+Episode 35 finished | Reward: 2.611
+Episode 36 finished | Reward: 4.149
+Episode 37 finished | Reward: 3.230
+Episode 38 finished | Reward: 2.789
+Episode 39 finished | Reward: 2.896
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 40 | Reward: 4.298
+Episode 40 finished | Reward: 4.298
+Episode 41 finished | Reward: 3.680
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 42 | Reward: 4.444
+Episode 42 finished | Reward: 4.444
+Episode 43 finished | Reward: 4.107
+Episode 44 finished | Reward: 3.860
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 45 | Reward: 4.776
+Episode 45 finished | Reward: 4.776
+Episode 46 finished | Reward: 4.342
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 47 | Reward: 5.355
+Episode 47 finished | Reward: 5.355
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 48 | Reward: 6.723
+Episode 48 finished | Reward: 6.723
+Episode 49 finished | Reward: 5.131
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 50 | Reward: 7.564
+Episode 50 finished | Reward: 7.564
+Episode 51 finished | Reward: 7.142
+Episode 52 finished | Reward: 7.035
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 53 | Reward: 9.526
+Episode 53 finished | Reward: 9.526
+Episode 54 finished | Reward: 8.169
+Episode 55 finished | Reward: 7.844
+Episode 56 finished | Reward: 8.156
+Episode 57 finished | Reward: 3.873
+Episode 58 finished | Reward: 5.144
+Episode 59 finished | Reward: 5.379
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 60 | Reward: 10.771
+Episode 60 finished | Reward: 10.771
+Episode 61 finished | Reward: 10.478
+Episode 62 finished | Reward: 8.076
+Episode 63 finished | Reward: 10.533
+Episode 64 finished | Reward: 9.073
+Episode 65 finished | Reward: 9.733
+Episode 66 finished | Reward: 10.080
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 67 | Reward: 11.119
+Episode 67 finished | Reward: 11.119
+Episode 68 finished | Reward: 10.323
+Episode 69 finished | Reward: 8.024
+Episode 70 finished | Reward: 10.707
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 71 | Reward: 11.813
+Episode 71 finished | Reward: 11.813
+Episode 72 finished | Reward: 10.958
+Episode 73 finished | Reward: 9.046
+Episode 74 finished | Reward: 5.669
+Episode 75 finished | Reward: 10.310
+Episode 76 finished | Reward: 8.910
+Episode 77 finished | Reward: 10.965
+Episode 78 finished | Reward: 9.776
+Episode 79 finished | Reward: 7.352
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+New best model saved to /home/home/soarm_tutorial/policy/PPO/checkpoints/best.pth
+New best model saved at episode 80 | Reward: 14.009
+Episode 80 finished | Reward: 14.009
+Episode 81 finished | Reward: 8.179
+Episode 82 finished | Reward: 6.963
+Episode 83 finished | Reward: 5.032
+Episode 84 finished | Reward: 5.440
+Episode 85 finished | Reward: 3.978
+Episode 86 finished | Reward: 3.931
+Episode 87 finished | Reward: 8.396
+Episode 88 finished | Reward: 4.646
+Episode 89 finished | Reward: 4.369
+Episode 90 finished | Reward: 5.122
+Episode 91 finished | Reward: 10.946
+Episode 92 finished | Reward: 12.593
+Episode 93 finished | Reward: 7.789
+Episode 94 finished | Reward: 5.196
+Episode 95 finished | Reward: 11.953
+Episode 96 finished | Reward: 11.196
+Episode 97 finished | Reward: 9.257
+Episode 98 finished | Reward: 5.815
+Episode 99 finished | Reward: 8.794
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+Model checkpoint saved at episode 100
+Episode 100 finished | Reward: 5.648
+Episode 101 finished | Reward: 8.377
+Episode 102 finished | Reward: 6.341
+Episode 103 finished | Reward: 7.353
+Episode 104 finished | Reward: 8.352
+Episode 105 finished | Reward: 6.868
+Episode 106 finished | Reward: 6.774
+Episode 107 finished | Reward: 5.871
+Episode 108 finished | Reward: 9.200
+Episode 109 finished | Reward: 1.774
+Episode 110 finished | Reward: 8.704
+Episode 111 finished | Reward: 2.778
+Episode 112 finished | Reward: 1.952
+Episode 113 finished | Reward: 1.834
+Episode 114 finished | Reward: 1.342
+Episode 115 finished | Reward: -0.433
+Episode 116 finished | Reward: 2.109
+Episode 117 finished | Reward: 5.073
+Episode 118 finished | Reward: 2.872
+Episode 119 finished | Reward: 3.680
+Episode 120 finished | Reward: 3.392
+Episode 121 finished | Reward: 3.608
+Episode 122 finished | Reward: 3.483
+Episode 123 finished | Reward: 6.712
+Episode 124 finished | Reward: 5.682
+Episode 125 finished | Reward: 3.280
+Episode 126 finished | Reward: 5.350
+Episode 127 finished | Reward: 5.956
+Episode 128 finished | Reward: 7.710
+Episode 129 finished | Reward: 6.517
+Episode 130 finished | Reward: 4.705
+Episode 131 finished | Reward: 2.574
+Episode 132 finished | Reward: 5.293
+Episode 133 finished | Reward: 6.207
+Episode 134 finished | Reward: 6.209
+Episode 135 finished | Reward: 6.164
+Episode 136 finished | Reward: 4.242
+Episode 137 finished | Reward: 4.853
+Episode 138 finished | Reward: 5.157
+Episode 139 finished | Reward: 3.308
+Episode 140 finished | Reward: 4.028
+Episode 141 finished | Reward: 2.125
+Episode 142 finished | Reward: 2.776
+Episode 143 finished | Reward: 3.638
+Episode 144 finished | Reward: 4.555
+Episode 145 finished | Reward: 3.771
+Episode 146 finished | Reward: 4.314
+Episode 147 finished | Reward: 5.664
+Episode 148 finished | Reward: 2.058
+Episode 149 finished | Reward: 4.719
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+Model checkpoint saved at episode 150
+Episode 150 finished | Reward: 4.298
+Episode 151 finished | Reward: 4.585
+Episode 152 finished | Reward: 3.444
+Episode 153 finished | Reward: 4.673
+Episode 154 finished | Reward: 4.860
+Episode 155 finished | Reward: 3.762
+Episode 156 finished | Reward: 4.522
+Episode 157 finished | Reward: 5.564
+Episode 158 finished | Reward: 5.836
+Episode 159 finished | Reward: 9.140
+Episode 160 finished | Reward: 8.728
+Episode 161 finished | Reward: 10.439
+Episode 162 finished | Reward: 5.639
+Episode 163 finished | Reward: 8.498
+Episode 164 finished | Reward: 4.275
+Episode 165 finished | Reward: 2.579
+Episode 166 finished | Reward: 3.874
+Episode 167 finished | Reward: 6.223
+Episode 168 finished | Reward: 5.287
+Episode 169 finished | Reward: 6.810
+Episode 170 finished | Reward: 8.543
+Episode 171 finished | Reward: 5.083
+Episode 172 finished | Reward: 4.029
+Episode 173 finished | Reward: 4.569
+Episode 174 finished | Reward: 4.821
+Episode 175 finished | Reward: 3.983
+Episode 176 finished | Reward: 6.483
+Episode 177 finished | Reward: 3.953
+Episode 178 finished | Reward: 6.565
+Episode 179 finished | Reward: 2.917
+Episode 180 finished | Reward: 4.159
+Episode 181 finished | Reward: 2.121
+Episode 182 finished | Reward: 7.667
+Episode 183 finished | Reward: 5.385
+Episode 184 finished | Reward: 3.215
+Episode 185 finished | Reward: 9.884
+Episode 186 finished | Reward: 9.045
+Episode 187 finished | Reward: 9.843
+Episode 188 finished | Reward: 7.222
+Episode 189 finished | Reward: 9.131
+Episode 190 finished | Reward: 10.222
+Episode 191 finished | Reward: 6.195
+Episode 192 finished | Reward: 7.652
+Episode 193 finished | Reward: 9.557
+Episode 194 finished | Reward: 3.533
+Episode 195 finished | Reward: 5.180
+Episode 196 finished | Reward: 5.104
+Episode 197 finished | Reward: 6.973
+Episode 198 finished | Reward: 8.576
+Episode 199 finished | Reward: 7.025
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/ppo_soarm.pth
+Model checkpoint saved at episode 200
+Episode 200 finished | Reward: 7.329
+Episode 201 finished | Reward: 10.128
+Episode 202 finished | Reward: 7.357
+Episode 203 finished | Reward: 3.968
+Episode 204 finished | Reward: 7.048
+Episode 205 finished | Reward: 6.367
+Episode 206 finished | Reward: 10.066
+Episode 207 finished | Reward: 9.418
+Episode 208 finished | Reward: 3.524
+Episode 209 finished | Reward: 8.003
+Episode 210 finished | Reward: 6.086
+Episode 211 finished | Reward: 5.708
+Episode 212 finished | Reward: 6.152
+Episode 213 finished | Reward: 6.254
+Episode 214 finished | Reward: 3.720
+Episode 215 finished | Reward: 2.881
+Episode 216 finished | Reward: 4.575
+Episode 217 finished | Reward: 5.813
+Episode 218 finished | Reward: 5.369
+Episode 219 finished | Reward: 4.580
+Episode 220 finished | Reward: 3.922
+Episode 221 finished | Reward: 3.268
+Episode 222 finished | Reward: 4.205
+Episode 223 finished | Reward: 3.434
+Episode 224 finished | Reward: 2.463
+Episode 225 finished | Reward: 2.892
+Episode 226 finished | Reward: 3.098
+Episode 227 finished | Reward: 4.254
+Episode 228 finished | Reward: 5.456
+Episode 229 finished | Reward: 5.481
+Episode 230 finished | Reward: 3.723
+Episode 231 finished | Reward: 5.281
+Episode 232 finished | Reward: 5.710
+Episode 233 finished | Reward: 4.572
+Episode 234 finished | Reward: 4.372
+Episode 235 finished | Reward: 4.718
+Episode 236 finished | Reward: 3.124
+Episode 237 finished | Reward: 4.588

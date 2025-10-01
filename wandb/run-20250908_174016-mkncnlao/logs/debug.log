@@ -1,0 +1,23 @@
+2025-09-08 17:40:16,643 INFO    MainThread:1290700 [wandb_setup.py:_flush():81] Current SDK version is 0.21.3
+2025-09-08 17:40:16,643 INFO    MainThread:1290700 [wandb_setup.py:_flush():81] Configure stats pid to 1290700
+2025-09-08 17:40:16,643 INFO    MainThread:1290700 [wandb_setup.py:_flush():81] Loading settings from /home/home/.config/wandb/settings
+2025-09-08 17:40:16,643 INFO    MainThread:1290700 [wandb_setup.py:_flush():81] Loading settings from /home/home/soarm_tutorial/wandb/settings
+2025-09-08 17:40:16,643 INFO    MainThread:1290700 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-09-08 17:40:16,643 INFO    MainThread:1290700 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /home/home/soarm_tutorial/wandb/run-20250908_174016-mkncnlao/logs/debug.log
+2025-09-08 17:40:16,643 INFO    MainThread:1290700 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /home/home/soarm_tutorial/wandb/run-20250908_174016-mkncnlao/logs/debug-internal.log
+2025-09-08 17:40:16,643 INFO    MainThread:1290700 [wandb_init.py:init():813] calling init triggers
+2025-09-08 17:40:16,643 INFO    MainThread:1290700 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'train': {'total_episodes': 1000, 'rollout_size': 2048, 'batch_size': 64, 'epochs': 10, 'learning_rate': '3e-4', 'gamma': 0.99, 'lam': 0.95, 'clip_eps': 0.2, 'save_interval': 50}, 'env': {'max_steps': 100, 'render': True}, 'model': {'hidden_sizes': [128, 64], 'save_dir': '/home/home/soarm_tutorial/policy/PPO/checkpoints', 'save_name': 'ppo_soarm.pth'}, '_wandb': {}}
+2025-09-08 17:40:16,643 INFO    MainThread:1290700 [wandb_init.py:init():854] starting backend
+2025-09-08 17:40:16,849 INFO    MainThread:1290700 [wandb_init.py:init():857] sending inform_init request
+2025-09-08 17:40:16,851 INFO    MainThread:1290700 [wandb_init.py:init():865] backend started and connected
+2025-09-08 17:40:16,852 INFO    MainThread:1290700 [wandb_init.py:init():936] updated telemetry
+2025-09-08 17:40:16,853 INFO    MainThread:1290700 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-09-08 17:40:17,731 INFO    MainThread:1290700 [wandb_init.py:init():1011] starting run threads in backend
+2025-09-08 17:40:17,859 INFO    MainThread:1290700 [wandb_run.py:_console_start():2494] atexit reg
+2025-09-08 17:40:17,859 INFO    MainThread:1290700 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-09-08 17:40:17,859 INFO    MainThread:1290700 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-09-08 17:40:17,859 INFO    MainThread:1290700 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-09-08 17:40:17,860 INFO    MainThread:1290700 [wandb_init.py:init():1057] run started, returning control to user process
+2025-09-08 17:43:02,745 INFO    wandb-AsyncioManager-main:1290700 [service_client.py:_forward_responses():84] Reached EOF.
+2025-09-08 17:43:02,746 INFO    wandb-AsyncioManager-main:1290700 [mailbox.py:close():137] Closing mailbox, abandoning 1 handles.

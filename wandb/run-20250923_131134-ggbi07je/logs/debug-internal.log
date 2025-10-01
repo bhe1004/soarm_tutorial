@@ -1,0 +1,19 @@
+{"time":"2025-09-23T13:11:34.74235218+09:00","level":"INFO","msg":"stream: starting","core version":"0.21.3"}
+{"time":"2025-09-23T13:11:35.140140007+09:00","level":"INFO","msg":"stream: created new stream","id":"ggbi07je"}
+{"time":"2025-09-23T13:11:35.140162223+09:00","level":"INFO","msg":"stream: started","id":"ggbi07je"}
+{"time":"2025-09-23T13:11:35.140169337+09:00","level":"INFO","msg":"writer: started","stream_id":"ggbi07je"}
+{"time":"2025-09-23T13:11:35.140255791+09:00","level":"INFO","msg":"sender: started","stream_id":"ggbi07je"}
+{"time":"2025-09-23T13:11:35.140276663+09:00","level":"INFO","msg":"handler: started","stream_id":"ggbi07je"}
+{"time":"2025-09-24T01:19:29.141648282+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-09-24T03:50:56.834044356+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/amc064029/soarm-ppo/ggbi07je/file_stream\": dial tcp: lookup api.wandb.ai on 163.180.96.54:53: read udp 192.168.0.86:45449->163.180.96.54:53: i/o timeout"}
+{"time":"2025-09-24T05:20:01.623912206+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-09-24T08:59:14.229871865+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/amc064029/soarm-ppo/ggbi07je/file_stream\": dial tcp: lookup api.wandb.ai on 163.180.96.54:53: read udp 192.168.0.86:32995->163.180.96.54:53: i/o timeout"}
+{"time":"2025-09-24T20:59:19.526131217+09:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/amc064029/soarm-ppo/ggbi07je/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-09-24T22:40:33.114372294+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/amc064029/soarm-ppo/ggbi07je/file_stream\": dial tcp: lookup api.wandb.ai on 163.180.96.54:53: read udp 192.168.0.86:52164->163.180.96.54:53: i/o timeout"}
+{"time":"2025-09-24T23:57:33.114549543+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/amc064029/soarm-ppo/ggbi07je/file_stream\": dial tcp: lookup api.wandb.ai on 163.180.96.54:53: read udp 192.168.0.86:52307->163.180.96.54:53: i/o timeout"}
+{"time":"2025-09-25T01:59:25.987582353+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.000735611}],"total_operations":1}}
+{"time":"2025-09-25T01:59:28.003682821+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-09-25T01:59:28.859676606+09:00","level":"INFO","msg":"stream: closing","id":"ggbi07je"}
+{"time":"2025-09-25T01:59:28.859684881+09:00","level":"INFO","msg":"handler: closed","stream_id":"ggbi07je"}
+{"time":"2025-09-25T01:59:28.859719658+09:00","level":"INFO","msg":"sender: closed","stream_id":"ggbi07je"}
+{"time":"2025-09-25T01:59:28.859723215+09:00","level":"INFO","msg":"stream: closed","id":"ggbi07je"}

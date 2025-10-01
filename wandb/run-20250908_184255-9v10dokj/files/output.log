@@ -1,0 +1,7 @@
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/best_-10.182.pth
+New best model saved at episode 1 | Reward: -10.182
+Episode 1 finished | Reward: -10.182
+Episode 2 finished | Reward: -10.747
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/best_-9.907.pth
+New best model saved at episode 3 | Reward: -9.907
+Episode 3 finished | Reward: -9.907

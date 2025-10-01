@@ -1,0 +1,27 @@
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/best_0.492.pth
+New best model saved at episode 1 | Reward: 0.492
+Episode 1 finished | Reward: 0.492
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/best_1.415.pth
+New best model saved at episode 2 | Reward: 1.415
+Episode 2 finished | Reward: 1.415
+Episode 3 finished | Reward: 0.591
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/best_2.054.pth
+New best model saved at episode 4 | Reward: 2.054
+Episode 4 finished | Reward: 2.054
+Episode 5 finished | Reward: 1.722
+Episode 6 finished | Reward: 0.633
+Episode 7 finished | Reward: 1.917
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/best_3.750.pth
+New best model saved at episode 8 | Reward: 3.750
+Episode 8 finished | Reward: 3.750
+Episode 9 finished | Reward: 2.409
+Episode 10 finished | Reward: 1.893
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/best_4.280.pth
+New best model saved at episode 11 | Reward: 4.280
+Episode 11 finished | Reward: 4.280
+Episode 12 finished | Reward: 3.491
+Episode 13 finished | Reward: 2.988
+Saved PPO model to /home/home/soarm_tutorial/policy/PPO/checkpoints/best_6.056.pth
+New best model saved at episode 14 | Reward: 6.056
+Episode 14 finished | Reward: 6.056
+Episode 15 finished | Reward: 4.270
