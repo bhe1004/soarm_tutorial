@@ -12,7 +12,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")
 from isaacsim import SimulationApp
 
 SOARM100_STAGE_PATH = "/World/soarm100_robot"
-SOARM100_USD_PATH = "/home/home/soarm_tutorial/isaac_env/asset/soarm100.usd"
+SOARM100_USD_PATH = "/home/bohyeong_RCI/soarm_tutorial/isaac_env/asset/soarm100.usd"
 
 CONFIG = {"renderer": "RaytracedLighting", "headless": True}
 simulation_app = SimulationApp(CONFIG)
@@ -148,7 +148,7 @@ if __name__ == "__main__":
     parser.add_argument("--wandb", action="store_true", help="Use Weights & Biases logging")
     args = parser.parse_args()
 
-    cfg = load_config("/home/home/soarm_tutorial/policy/PPO/config.yaml")
+    cfg = load_config("/home/bohyeong_RCI/soarm_tutorial/policy/PPO/config.yaml")
 
     joint_lower = np.array(cfg["robot"]["joint_limits"]["lower"], dtype=np.float32)
     joint_upper = np.array(cfg["robot"]["joint_limits"]["upper"], dtype=np.float32)
@@ -157,7 +157,7 @@ if __name__ == "__main__":
     save_path = os.path.join(cfg["model"]["save_path"], timestamp)
     os.makedirs(save_path, exist_ok=True)
 
-    config_src = "/home/home/soarm_tutorial/policy/PPO/config.yaml"
+    config_src = "/home/bohyeong_RCI/soarm_tutorial/policy/PPO/config.yaml"
     config_dst = os.path.join(save_path, "config.yaml")
     shutil.copy(config_src, config_dst)
 

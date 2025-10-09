@@ -1,6 +1,6 @@
 train:
   total_episodes: 10000
-  rollout_size: 128
+  rollout_size: 512
   batch_size: 64
   epochs: 10
   learning_rate: 1e-4
@@ -17,7 +17,7 @@ env:
 
 model:
   hidden_sizes: [256, 128]   # actor-critic MLP 깊이와 크기
-  save_path: "/home/home/soarm_tutorial/policy/PPO/checkpoints"
+  save_path: "/home/bohyeong_RCI/soarm_tutorial/policy/PPO/checkpoints"
 
 robot:
   joint_limits: # rad
