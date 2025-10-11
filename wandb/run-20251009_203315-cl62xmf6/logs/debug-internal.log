@@ -1,0 +1,17 @@
+{"time":"2025-10-09T20:33:15.714666158+09:00","level":"INFO","msg":"stream: starting","core version":"0.21.3"}
+{"time":"2025-10-09T20:33:16.212268243+09:00","level":"INFO","msg":"stream: created new stream","id":"cl62xmf6"}
+{"time":"2025-10-09T20:33:16.212290751+09:00","level":"INFO","msg":"stream: started","id":"cl62xmf6"}
+{"time":"2025-10-09T20:33:16.212299221+09:00","level":"INFO","msg":"sender: started","stream_id":"cl62xmf6"}
+{"time":"2025-10-09T20:33:16.212322742+09:00","level":"INFO","msg":"writer: started","stream_id":"cl62xmf6"}
+{"time":"2025-10-09T20:33:16.212385966+09:00","level":"INFO","msg":"handler: started","stream_id":"cl62xmf6"}
+{"time":"2025-10-10T07:15:47.880167707+09:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/amc064029/soarm-ppo/cl62xmf6/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-10-10T07:17:21.318001891+09:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/amc064029/soarm-ppo/cl62xmf6/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-10-10T08:26:36.338028301+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-10-11T04:35:09.180241622+09:00","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/amc064029/soarm-ppo/cl62xmf6/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-10-11T08:19:52.55193135+09:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/amc064029/soarm-ppo/cl62xmf6/file_stream\": dial tcp: lookup api.wandb.ai on 163.180.96.54:53: read udp 192.168.0.86:45699->163.180.96.54:53: i/o timeout"}
+{"time":"2025-10-11T10:01:02.718223788+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.001022453}],"total_operations":1}}
+{"time":"2025-10-11T10:01:05.896292652+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-11T10:01:06.310355259+09:00","level":"INFO","msg":"stream: closing","id":"cl62xmf6"}
+{"time":"2025-10-11T10:01:06.310364709+09:00","level":"INFO","msg":"handler: closed","stream_id":"cl62xmf6"}
+{"time":"2025-10-11T10:01:06.310393496+09:00","level":"INFO","msg":"sender: closed","stream_id":"cl62xmf6"}
+{"time":"2025-10-11T10:01:06.310396826+09:00","level":"INFO","msg":"stream: closed","id":"cl62xmf6"}

@@ -1,0 +1,70 @@
+_wandb:
+    value:
+        cli_version: 0.22.2
+        e:
+            xl1gh20kbqj2x47ea5zkx6sspgqjmzyn:
+                args:
+                    - --headless
+                    - --wandb
+                codePath: policy/REINFORCE/train.py
+                codePathLocal: policy/REINFORCE/train.py
+                cpu_count: 10
+                cpu_count_logical: 10
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "983247642624"
+                        used: "702457982976"
+                email: pakbohyong0717@gmail.com
+                executable: /home/home/anaconda3/envs/RL_tutorial/bin/python
+                git:
+                    commit: a82cd384092936848ef4db116d07ee523eb8c142
+                    remote: https://github.com/bhe1004/soarm_tutorial.git
+                gpu: NVIDIA GeForce RTX 5070
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Blackwell
+                      cudaCores: 6144
+                      memoryTotal: "12820938752"
+                      name: NVIDIA GeForce RTX 5070
+                      uuid: GPU-c450e067-8610-e678-c4cb-409ef308a10f
+                host: home
+                memory:
+                    total: "33259446272"
+                os: Linux-6.8.0-85-generic-x86_64-with-glibc2.35
+                program: /home/home/soarm_tutorial/policy/REINFORCE/train.py
+                python: CPython 3.10.13
+                root: /home/home/soarm_tutorial
+                startedAt: "2025-10-10T08:58:56.760341Z"
+                writerId: xl1gh20kbqj2x47ea5zkx6sspgqjmzyn
+        m: []
+        python_version: 3.10.13
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 2
+                - 16
+            "4": 3.10.13
+            "5": 0.22.2
+            "12": 0.22.2
+            "13": linux-x86_64
+env:
+    value:
+        save_path: /home/home/soarm_tutorial/policy/REINFORCE/checkpoints
+        solved_threshold: 195
+headless:
+    value: true
+model:
+    value:
+        activation: ReLU
+        hidden_sizes:
+            - 64
+train:
+    value:
+        gamma: 0.99
+        learning_rate: 0.01
+        max_steps: 200
+        num_episodes: 500

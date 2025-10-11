@@ -1,0 +1,12 @@
+{"time":"2025-10-10T18:00:17.248226949+09:00","level":"INFO","msg":"stream: starting","core version":"0.22.2"}
+{"time":"2025-10-10T18:00:17.656202569+09:00","level":"INFO","msg":"stream: created new stream","id":"rbmptzgc"}
+{"time":"2025-10-10T18:00:17.656235068+09:00","level":"INFO","msg":"handler: started","stream_id":"rbmptzgc"}
+{"time":"2025-10-10T18:00:17.656265246+09:00","level":"INFO","msg":"stream: started","id":"rbmptzgc"}
+{"time":"2025-10-10T18:00:17.656352181+09:00","level":"INFO","msg":"writer: started","stream_id":"rbmptzgc"}
+{"time":"2025-10-10T18:00:17.656364049+09:00","level":"INFO","msg":"sender: started","stream_id":"rbmptzgc"}
+{"time":"2025-10-10T18:00:23.461096315+09:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.000610608}],"total_operations":1}}
+{"time":"2025-10-10T18:00:24.512978012+09:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-10T18:00:24.794640142+09:00","level":"INFO","msg":"stream: closing","id":"rbmptzgc"}
+{"time":"2025-10-10T18:00:24.794646562+09:00","level":"INFO","msg":"handler: closed","stream_id":"rbmptzgc"}
+{"time":"2025-10-10T18:00:24.795214899+09:00","level":"INFO","msg":"sender: closed","stream_id":"rbmptzgc"}
+{"time":"2025-10-10T18:00:24.79522609+09:00","level":"INFO","msg":"stream: closed","id":"rbmptzgc"}

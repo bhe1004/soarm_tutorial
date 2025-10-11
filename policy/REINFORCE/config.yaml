@@ -1,0 +1,13 @@
+train:
+  num_episodes: 300        # 전체 학습 에피소드 수
+  max_steps: 200           # 한 에피소드에서의 최대 step 수
+  learning_rate: 0.01      # Adam optimizer의 학습률
+  gamma: 0.99              # 할인율 (미래 보상의 중요도)
+
+model:
+  hidden_sizes: [64]       # 정책망의 은닉층 크기 (e.g., [64], [128, 64] 등)
+  activation: "ReLU"       # 활성화 함수 (ReLU, Tanh 등)
+
+env:
+  solved_threshold: 195.0  # "문제 해결"로 간주하는 보상 기준
+  save_path: "/home/home/soarm_tutorial/policy/REINFORCE/checkpoints"

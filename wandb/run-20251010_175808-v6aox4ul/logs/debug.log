@@ -1,0 +1,27 @@
+2025-10-10 17:58:08,013 INFO    MainThread:345122 [wandb_setup.py:_flush():81] Current SDK version is 0.22.2
+2025-10-10 17:58:08,013 INFO    MainThread:345122 [wandb_setup.py:_flush():81] Configure stats pid to 345122
+2025-10-10 17:58:08,013 INFO    MainThread:345122 [wandb_setup.py:_flush():81] Loading settings from /home/home/.config/wandb/settings
+2025-10-10 17:58:08,013 INFO    MainThread:345122 [wandb_setup.py:_flush():81] Loading settings from /home/home/soarm_tutorial/wandb/settings
+2025-10-10 17:58:08,013 INFO    MainThread:345122 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-10 17:58:08,013 INFO    MainThread:345122 [wandb_init.py:setup_run_log_directory():705] Logging user logs to /home/home/soarm_tutorial/wandb/run-20251010_175808-v6aox4ul/logs/debug.log
+2025-10-10 17:58:08,013 INFO    MainThread:345122 [wandb_init.py:setup_run_log_directory():706] Logging internal logs to /home/home/soarm_tutorial/wandb/run-20251010_175808-v6aox4ul/logs/debug-internal.log
+2025-10-10 17:58:08,013 INFO    MainThread:345122 [wandb_init.py:init():832] calling init triggers
+2025-10-10 17:58:08,013 INFO    MainThread:345122 [wandb_init.py:init():837] wandb.init called with sweep_config: {}
+config: {'train': {'num_episodes': 300, 'max_steps': 200, 'learning_rate': 0.01, 'gamma': 0.99}, 'model': {'hidden_sizes': [64], 'activation': 'ReLU'}, 'env': {'solved_threshold': 195.0, 'save_path': '/home/home/soarm_tutorial/policy/REINFORCE/checkpoints'}, '_wandb': {}}
+2025-10-10 17:58:08,013 INFO    MainThread:345122 [wandb_init.py:init():880] starting backend
+2025-10-10 17:58:08,218 INFO    MainThread:345122 [wandb_init.py:init():883] sending inform_init request
+2025-10-10 17:58:08,221 INFO    MainThread:345122 [wandb_init.py:init():891] backend started and connected
+2025-10-10 17:58:08,221 INFO    MainThread:345122 [wandb_init.py:init():961] updated telemetry
+2025-10-10 17:58:08,224 INFO    MainThread:345122 [wandb_init.py:init():985] communicating run to backend with 90.0 second timeout
+2025-10-10 17:58:09,141 INFO    MainThread:345122 [wandb_init.py:init():1036] starting run threads in backend
+2025-10-10 17:58:09,192 INFO    MainThread:345122 [wandb_run.py:_console_start():2509] atexit reg
+2025-10-10 17:58:09,192 INFO    MainThread:345122 [wandb_run.py:_redirect():2357] redirect: wrap_raw
+2025-10-10 17:58:09,192 INFO    MainThread:345122 [wandb_run.py:_redirect():2426] Wrapping output streams.
+2025-10-10 17:58:09,192 INFO    MainThread:345122 [wandb_run.py:_redirect():2449] Redirects installed.
+2025-10-10 17:58:09,193 INFO    MainThread:345122 [wandb_init.py:init():1076] run started, returning control to user process
+2025-10-10 17:58:09,193 INFO    MainThread:345122 [wandb_run.py:_config_callback():1392] config_cb None None {'headless': True}
+2025-10-10 17:58:14,808 INFO    MainThread:345122 [wandb_run.py:_finish():2275] finishing run amc064029/REINFORCE-CartPole/v6aox4ul
+2025-10-10 17:58:14,809 INFO    MainThread:345122 [wandb_run.py:_atexit_cleanup():2474] got exitcode: 0
+2025-10-10 17:58:14,809 INFO    MainThread:345122 [wandb_run.py:_restore():2456] restore
+2025-10-10 17:58:14,809 INFO    MainThread:345122 [wandb_run.py:_restore():2462] restore done
+2025-10-10 17:58:16,145 INFO    MainThread:345122 [wandb_run.py:_footer_sync_info():3872] logging synced files

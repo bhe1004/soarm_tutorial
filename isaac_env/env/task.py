@@ -1,5 +1,6 @@
 from abc import ABC
 import numpy as np
+import os
 
 import omni
 from isaacsim.core.api.objects import VisualCuboid
@@ -20,7 +21,8 @@ class Soarm_Task(ABC, BaseTask):
         if self._asset_root_path is None:
             raise Exception("Could not find Isaac Sim assets folder")
         self._robot_stage_path = "/World/robot"
-        self._asset_path = "/home/bohyeong_RCI/soarm_tutorial/isaac_env/asset"
+        self.current_dir = os.path.dirname(os.path.abspath(__file__))
+        self._asset_path = os.path.join(self.current_dir, "../asset")
         self._robot_asset_path = self._asset_path + "/soarm100.usd"
         self._ee_xform_path = self._robot_stage_path + "/wrist"
 
