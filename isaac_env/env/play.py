@@ -104,15 +104,10 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--checkpoint", type=str, required=True,
                         help="Path to trained PPO checkpoint (.pth)")
-    parser.add_argument("--headless", action="store_true",
-                        help="Headless mode (no rendering)")
-    parser.add_argument("--episodes", type=int, default=3,
+
+    parser.add_argument("--episodes", type=int, default=300,
                         help="Number of play episodes to run")
     args = parser.parse_args()
-
-    # 렌더링 비활성화 옵션
-    if args.headless:
-        simulation_app.set_setting("/app/window/drawGpu", False)
 
     # config 로드
     cfg_path = os.path.join(os.path.dirname(args.checkpoint), "config.yaml")

@@ -1,0 +1,26 @@
+2025-10-11 14:37:56,910 INFO    MainThread:982599 [wandb_setup.py:_flush():81] Current SDK version is 0.21.3
+2025-10-11 14:37:56,910 INFO    MainThread:982599 [wandb_setup.py:_flush():81] Configure stats pid to 982599
+2025-10-11 14:37:56,910 INFO    MainThread:982599 [wandb_setup.py:_flush():81] Loading settings from /home/home/.config/wandb/settings
+2025-10-11 14:37:56,910 INFO    MainThread:982599 [wandb_setup.py:_flush():81] Loading settings from /home/home/soarm_tutorial/wandb/settings
+2025-10-11 14:37:56,910 INFO    MainThread:982599 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-10-11 14:37:56,910 INFO    MainThread:982599 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /home/home/soarm_tutorial/wandb/run-20251011_143756-mmxod55m/logs/debug.log
+2025-10-11 14:37:56,910 INFO    MainThread:982599 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /home/home/soarm_tutorial/wandb/run-20251011_143756-mmxod55m/logs/debug-internal.log
+2025-10-11 14:37:56,910 INFO    MainThread:982599 [wandb_init.py:init():813] calling init triggers
+2025-10-11 14:37:56,910 INFO    MainThread:982599 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'train': {'total_episodes': 10000, 'rollout_size': 256, 'batch_size': 64, 'epochs': 10, 'learning_rate': '1e-4', 'gamma': 0.99, 'lam': 0.95, 'clip_eps': 0.2, 'save_interval': 500, 'action_std_decay': 0.01, 'min_action_std': 0.1, 'entropy_bonus': 0.01}, 'env': {'max_steps': 500}, 'model': {'hidden_sizes': [256, 128], 'save_path': '/home/home/soarm_tutorial/policy/PPO/checkpoints'}, 'robot': {'joint_limits': {'lower': [-1.5708, 0.0, -3.1416, -3.1416, -1.5708, -0.1745], 'upper': [1.5708, 3.1416, 0.0, 0.0, 1.5708, 0.8727]}}, '_wandb': {}}
+2025-10-11 14:37:56,910 INFO    MainThread:982599 [wandb_init.py:init():854] starting backend
+2025-10-11 14:37:57,119 INFO    MainThread:982599 [wandb_init.py:init():857] sending inform_init request
+2025-10-11 14:37:57,121 INFO    MainThread:982599 [wandb_init.py:init():865] backend started and connected
+2025-10-11 14:37:57,122 INFO    MainThread:982599 [wandb_init.py:init():936] updated telemetry
+2025-10-11 14:37:57,126 INFO    MainThread:982599 [wandb_init.py:init():960] communicating run to backend with 90.0 second timeout
+2025-10-11 14:37:57,802 INFO    MainThread:982599 [wandb_init.py:init():1011] starting run threads in backend
+2025-10-11 14:37:57,929 INFO    MainThread:982599 [wandb_run.py:_console_start():2494] atexit reg
+2025-10-11 14:37:57,930 INFO    MainThread:982599 [wandb_run.py:_redirect():2342] redirect: wrap_raw
+2025-10-11 14:37:57,930 INFO    MainThread:982599 [wandb_run.py:_redirect():2411] Wrapping output streams.
+2025-10-11 14:37:57,930 INFO    MainThread:982599 [wandb_run.py:_redirect():2434] Redirects installed.
+2025-10-11 14:37:57,934 INFO    MainThread:982599 [wandb_init.py:init():1057] run started, returning control to user process
+2025-10-13 04:04:55,832 INFO    MainThread:982599 [wandb_run.py:_finish():2260] finishing run amc064029/soarm-ppo/mmxod55m
+2025-10-13 04:04:55,832 INFO    MainThread:982599 [wandb_run.py:_atexit_cleanup():2459] got exitcode: 0
+2025-10-13 04:04:55,832 INFO    MainThread:982599 [wandb_run.py:_restore():2441] restore
+2025-10-13 04:04:55,832 INFO    MainThread:982599 [wandb_run.py:_restore():2447] restore done
+2025-10-13 04:05:07,979 INFO    MainThread:982599 [wandb_run.py:_footer_sync_info():3855] logging synced files

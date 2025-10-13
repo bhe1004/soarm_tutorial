@@ -29,7 +29,7 @@ class Soarm_Task(ABC, BaseTask):
         # 🔑 cube 위치 범위 설정 (원하는 대로 수정 가능)
         self._cube_x_range = (-0.2, 0.2)
         self._cube_y_range = (-0.2, -0.3)
-        self._cube_z_height = 0.2
+        self._cube_z_range = (0.1, 0.3)
 
     def set_up_scene(self, scene: Scene) -> None:
         super().set_up_scene(scene)
@@ -42,7 +42,7 @@ class Soarm_Task(ABC, BaseTask):
             name="visual_cube",
             size=1.0,
             scale=(0.02, 0.02, 0.02),
-            position=np.array([0.0, -0.3, self._cube_z_height]),
+            position=np.array([0.0, -0.3, 0.2]),
             color=np.array([1.0, 0.0, 0.0])
         )
 
@@ -75,7 +75,7 @@ class Soarm_Task(ABC, BaseTask):
         new_pos = np.array([
             np.random.uniform(*self._cube_x_range),
             np.random.uniform(*self._cube_y_range),
-            self._cube_z_height,
+            np.random.uniform(*self._cube_z_range),
         ], dtype=np.float32)
 
         _, ori = self.visual_cube.get_local_pose()
