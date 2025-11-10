@@ -1,0 +1,16 @@
+{"time":"2025-10-13T02:28:49.112311757Z","level":"INFO","msg":"stream: starting","core version":"0.22.0"}
+{"time":"2025-10-13T02:28:49.445157436Z","level":"INFO","msg":"stream: created new stream","id":"320kn4gk"}
+{"time":"2025-10-13T02:28:49.445208808Z","level":"INFO","msg":"stream: started","id":"320kn4gk"}
+{"time":"2025-10-13T02:28:49.445293331Z","level":"INFO","msg":"writer: started","stream_id":"320kn4gk"}
+{"time":"2025-10-13T02:28:49.445344352Z","level":"INFO","msg":"handler: started","stream_id":"320kn4gk"}
+{"time":"2025-10-13T02:28:49.445387494Z","level":"INFO","msg":"sender: started","stream_id":"320kn4gk"}
+{"time":"2025-10-13T16:27:21.037740064Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/amc064029/soarm-ppo/320kn4gk/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-10-13T17:39:49.894382144Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/amc064029/soarm-ppo/320kn4gk/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-10-13T20:02:14.570937747Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/amc064029/soarm-ppo/320kn4gk/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-10-14T21:12:59.128451015Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-10-15T09:18:35.229886351Z","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-10-15T09:18:37.261179997Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-10-15T09:18:37.50591302Z","level":"INFO","msg":"stream: closing","id":"320kn4gk"}
+{"time":"2025-10-15T09:18:37.5059303Z","level":"INFO","msg":"handler: closed","stream_id":"320kn4gk"}
+{"time":"2025-10-15T09:18:37.505999073Z","level":"INFO","msg":"sender: closed","stream_id":"320kn4gk"}
+{"time":"2025-10-15T09:18:37.506006313Z","level":"INFO","msg":"stream: closed","id":"320kn4gk"}

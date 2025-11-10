@@ -42,7 +42,7 @@ class ActorCritic(nn.Module):
         raw_action = dist.sample()
         logp = dist.log_prob(raw_action).sum(axis=-1)
 
-        scaled_action = self.squash_and_scale(raw_action)  # 환경에 전달할 action
+        scaled_action = self.squash_and_scale(raw_action)  
         value = self.critic(obs)
 
         return scaled_action, raw_action, logp, value

@@ -29,7 +29,7 @@ class Soarm_Task(ABC, BaseTask):
         # 🔑 cube 위치 범위 설정 (원하는 대로 수정 가능)
         self._cube_x_range = (-0.2, 0.2)
         self._cube_y_range = (-0.2, -0.3)
-        self._cube_z_range = (0.1, 0.3)
+        self._cube_z_range = (0.1, 0.2)
 
     def set_up_scene(self, scene: Scene) -> None:
         super().set_up_scene(scene)

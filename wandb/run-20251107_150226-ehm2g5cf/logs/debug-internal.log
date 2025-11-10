@@ -1,0 +1,13 @@
+{"time":"2025-11-07T15:02:27.194133786Z","level":"INFO","msg":"stream: starting","core version":"0.22.0"}
+{"time":"2025-11-07T15:02:27.529161797Z","level":"INFO","msg":"stream: created new stream","id":"ehm2g5cf"}
+{"time":"2025-11-07T15:02:27.529223509Z","level":"INFO","msg":"stream: started","id":"ehm2g5cf"}
+{"time":"2025-11-07T15:02:27.529299202Z","level":"INFO","msg":"writer: started","stream_id":"ehm2g5cf"}
+{"time":"2025-11-07T15:02:27.529385184Z","level":"INFO","msg":"sender: started","stream_id":"ehm2g5cf"}
+{"time":"2025-11-07T15:02:27.529482028Z","level":"INFO","msg":"handler: started","stream_id":"ehm2g5cf"}
+{"time":"2025-11-07T20:31:14.408109557Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-11-10T06:15:19.606483893Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.000235399}],"total_operations":1}}
+{"time":"2025-11-10T06:15:20.55120138Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-10T06:15:20.853450707Z","level":"INFO","msg":"stream: closing","id":"ehm2g5cf"}
+{"time":"2025-11-10T06:15:20.853466267Z","level":"INFO","msg":"handler: closed","stream_id":"ehm2g5cf"}
+{"time":"2025-11-10T06:15:20.85352154Z","level":"INFO","msg":"sender: closed","stream_id":"ehm2g5cf"}
+{"time":"2025-11-10T06:15:20.85352982Z","level":"INFO","msg":"stream: closed","id":"ehm2g5cf"}

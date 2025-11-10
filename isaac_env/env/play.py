@@ -10,7 +10,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")
 from isaacsim import SimulationApp
 
 SOARM100_STAGE_PATH = "/World/soarm100_robot"
-SOARM100_USD_PATH = "/home/home/soarm_tutorial/isaac_env/asset/soarm100.usd"
+SOARM100_USD_PATH = "/home/bohyeong_RCI/soarm_tutorial/isaac_env/asset/soarm100.usd"
 
 CONFIG = {"renderer": "RaytracedLighting", "headless": False}  # 시각화 ON
 simulation_app = SimulationApp(CONFIG)
