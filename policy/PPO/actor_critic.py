@@ -1,9 +1,11 @@
 import torch
 import torch.nn as nn
+import math
 
 class ActorCritic(nn.Module):
     def __init__(self, obs_dim, act_dim, hidden_sizes=[64, 64],
-                 init_action_std=0.6, action_low=None, action_high=None):
+                 init_action_std=0.6, action_low=None, action_high=None,
+                 use_deg=True):
         super().__init__()
         # Actor
         layers = []
@@ -23,9 +25,20 @@ class ActorCritic(nn.Module):
             last_dim = h
         self.critic = nn.Sequential(*layers, nn.Linear(last_dim, 1))
 
+        # action std 및 단위 변환 설정
         self.action_std = init_action_std
-        self.action_low = torch.tensor(action_low, dtype=torch.float32).cuda() if action_low is not None else None
-        self.action_high = torch.tensor(action_high, dtype=torch.float32).cuda() if action_high is not None else None
+        self.use_deg = use_deg  # rad→deg 변환 여부
+
+        # rad → deg 변환 적용
+        if action_low is not None and action_high is not None:
+            if self.use_deg:
+                action_low = [a * 180.0 / math.pi for a in action_low]
+                action_high = [a * 180.0 / math.pi for a in action_high]
+            self.action_low = torch.tensor(action_low, dtype=torch.float32).cuda()
+            self.action_high = torch.tensor(action_high, dtype=torch.float32).cuda()
+        else:
+            self.action_low = None
+            self.action_high = None
 
     def squash_and_scale(self, raw_action):
         squashed = torch.tanh(raw_action)  # [-1, 1]
