@@ -1,0 +1,110 @@
+_wandb:
+    value:
+        cli_version: 0.22.0
+        e:
+            yjst5nijm4uincp5vte7p27j99fnrqiq:
+                args:
+                    - --wandb
+                codePath: isaac_env/env/train.py
+                codePathLocal: isaac_env/env/train.py
+                cpu_count: 32
+                cpu_count_logical: 64
+                cudaVersion: "12.8"
+                disk:
+                    /:
+                        total: "3846243041280"
+                        used: "2291241328640"
+                email: pakbohyong0717@gmail.com
+                executable: /home/bohyeong_RCI/IsaacSim/_build/linux-x86_64/release/kit/python/bin/python3
+                git:
+                    commit: cf92e09f73fc2a5293ffa2009bccd455315555af
+                    remote: https://github.com/bhe1004/soarm_tutorial.git
+                gpu: NVIDIA RTX A6000
+                gpu_count: 4
+                gpu_nvidia:
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-5c163755-518a-091d-171a-7d63607831c5
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-d0d19399-8638-6a6b-6469-85bd4102ccd7
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-b4f80259-918d-4370-c04e-f7c5bf9ee1af
+                    - architecture: Ampere
+                      cudaCores: 10752
+                      memoryTotal: "51527024640"
+                      name: NVIDIA RTX A6000
+                      uuid: GPU-dd067e9d-822e-31e6-f7a5-35e5e57309c4
+                host: aigpu0411
+                memory:
+                    total: "540665147392"
+                os: Linux-5.15.0-136-generic-x86_64-with-glibc2.35
+                program: /home/bohyeong_RCI/soarm_tutorial/isaac_env/env/train.py
+                python: CPython 3.11.13
+                root: /home/bohyeong_RCI/soarm_tutorial
+                startedAt: "2025-11-12T10:50:19.397160Z"
+                writerId: yjst5nijm4uincp5vte7p27j99fnrqiq
+        m: []
+        python_version: 3.11.13
+        t:
+            "1":
+                - 1
+                - 105
+            "2":
+                - 1
+                - 105
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.13
+            "5": 0.22.0
+            "12": 0.22.0
+            "13": linux-x86_64
+env:
+    value:
+        max_steps: 500
+model:
+    value:
+        hidden_sizes:
+            - 256
+            - 128
+        save_path: /home/bohyeong_RCI/soarm_tutorial/policy/PPO/checkpoints
+robot:
+    value:
+        joint_limits:
+            lower:
+                - -1.5708
+                - 0
+                - -3.1416
+                - -3.1416
+                - -1.5708
+                - -0.1745
+            upper:
+                - 1.5708
+                - 3.1416
+                - 0
+                - 0
+                - 1.5708
+                - 0.8727
+train:
+    value:
+        action_std_decay: 0.005
+        batch_size: 64
+        clip_eps: 0.2
+        entropy_bonus: 0.03
+        epochs: 10
+        gamma: 0.99
+        lam: 0.95
+        learning_rate: "1e-4"
+        min_action_std: 0.1
+        rollout_size: 256
+        save_interval: 2000
+        total_episodes: 10000

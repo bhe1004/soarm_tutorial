@@ -31,14 +31,23 @@ class PPO:
         self.min_action_std = min_action_std
         self.entropy_bonus = entropy_bonus
 
-    def compute_advantages(self, rewards, values, dones, last_value):
+    def compute_advantages(self, rewards, values, dones, last_value, T):
+        # T: 실제로 채워진 step 수 (buffer.ptr)
+        rewards = rewards[:T]
+        values  = values[:T]
+        dones   = dones[:T]
+
         adv = np.zeros_like(rewards)
-        gae = 0
-        for t in reversed(range(len(rewards))):
-            delta = rewards[t] + self.gamma * (1 - dones[t]) * \
-                    (values[t+1] if t+1 < len(values) else last_value) - values[t]
+        gae = 0.0
+        for t in reversed(range(T)):
+            if t == T - 1:
+                next_value = last_value
+            else:
+                next_value = values[t+1]
+            delta = rewards[t] + self.gamma * (1 - dones[t]) * next_value - values[t]
             gae = delta + self.gamma * self.lam * (1 - dones[t]) * gae
             adv[t] = gae
+
         returns = adv + values
         return adv, returns
 
@@ -53,22 +62,23 @@ class PPO:
         )
 
     def update(self, buffer, last_value):
-        adv, returns = self.compute_advantages(buffer.rewards, buffer.values, buffer.dones, last_value)
+        T = buffer.ptr # dataset size
+        adv, returns = self.compute_advantages(buffer.rewards, buffer.values, buffer.dones, last_value, T)
         adv = (adv - adv.mean()) / (adv.std() + 1e-8)
 
         obs, raw_actions, old_logps, adv, returns = self._tensors_to_cuda(
-            buffer.obs[:buffer.ptr], buffer.raw_actions[:buffer.ptr],
-            buffer.logps[:buffer.ptr], adv, returns
+            buffer.obs[:T], buffer.raw_actions[:T],
+            buffer.logps[:T], adv, returns
         )
 
-        dataset_size = buffer.ptr
-        inds = np.arange(dataset_size)
+        
+        inds = np.arange(T)
 
         old_values = self.net.get_value(obs).detach() # 업데이트 전 value를 한 번만 계산
 
         for _ in range(self.epochs):
             np.random.shuffle(inds)
-            for start in range(0, dataset_size, self.batch_size):
+            for start in range(0, T, self.batch_size):
                 end = start + self.batch_size
                 batch_inds = inds[start:end]
 

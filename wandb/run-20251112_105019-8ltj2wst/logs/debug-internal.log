@@ -1,0 +1,16 @@
+{"time":"2025-11-12T10:50:19.613295386Z","level":"INFO","msg":"stream: starting","core version":"0.22.0"}
+{"time":"2025-11-12T10:50:19.943670164Z","level":"INFO","msg":"stream: created new stream","id":"8ltj2wst"}
+{"time":"2025-11-12T10:50:19.943733336Z","level":"INFO","msg":"stream: started","id":"8ltj2wst"}
+{"time":"2025-11-12T10:50:19.943765058Z","level":"INFO","msg":"sender: started","stream_id":"8ltj2wst"}
+{"time":"2025-11-12T10:50:19.943777498Z","level":"INFO","msg":"writer: started","stream_id":"8ltj2wst"}
+{"time":"2025-11-12T10:50:19.943833141Z","level":"INFO","msg":"handler: started","stream_id":"8ltj2wst"}
+{"time":"2025-11-12T22:50:06.046674946Z","level":"INFO","msg":"api: retrying HTTP error","status":502,"url":"https://api.wandb.ai/files/amc064029/soarm-ppo/8ltj2wst/file_stream","body":"\n<html><head>\n<meta http-equiv=\"content-type\" content=\"text/html;charset=utf-8\">\n<title>502 Server Error</title>\n</head>\n<body text=#000000 bgcolor=#ffffff>\n<h1>Error: Server Error</h1>\n<h2>The server encountered a temporary error and could not complete your request.<p>Please try again in 30 seconds.</h2>\n<h2></h2>\n</body></html>\n"}
+{"time":"2025-11-13T19:09:54.226923442Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-11-13T20:34:09.877074601Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-11-13T21:06:55.113047328Z","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-11-14T19:00:23.948420547Z","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"updating run metadata","runtime_seconds":0.000819734}],"total_operations":1}}
+{"time":"2025-11-14T19:00:25.277627303Z","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-11-14T19:00:25.676624245Z","level":"INFO","msg":"stream: closing","id":"8ltj2wst"}
+{"time":"2025-11-14T19:00:25.676649597Z","level":"INFO","msg":"handler: closed","stream_id":"8ltj2wst"}
+{"time":"2025-11-14T19:00:25.676736971Z","level":"INFO","msg":"sender: closed","stream_id":"8ltj2wst"}
+{"time":"2025-11-14T19:00:25.676750472Z","level":"INFO","msg":"stream: closed","id":"8ltj2wst"}

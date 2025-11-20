@@ -1,0 +1,21 @@
+2025-11-11 12:44:45,498 INFO    MainThread:2706181 [wandb_setup.py:_flush():81] Current SDK version is 0.22.0
+2025-11-11 12:44:45,498 INFO    MainThread:2706181 [wandb_setup.py:_flush():81] Configure stats pid to 2706181
+2025-11-11 12:44:45,498 INFO    MainThread:2706181 [wandb_setup.py:_flush():81] Loading settings from /home/bohyeong_RCI/.config/wandb/settings
+2025-11-11 12:44:45,498 INFO    MainThread:2706181 [wandb_setup.py:_flush():81] Loading settings from /home/bohyeong_RCI/soarm_tutorial/wandb/settings
+2025-11-11 12:44:45,498 INFO    MainThread:2706181 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2025-11-11 12:44:45,498 INFO    MainThread:2706181 [wandb_init.py:setup_run_log_directory():686] Logging user logs to /home/bohyeong_RCI/soarm_tutorial/wandb/run-20251111_124445-7l4yxlq1/logs/debug.log
+2025-11-11 12:44:45,499 INFO    MainThread:2706181 [wandb_init.py:setup_run_log_directory():687] Logging internal logs to /home/bohyeong_RCI/soarm_tutorial/wandb/run-20251111_124445-7l4yxlq1/logs/debug-internal.log
+2025-11-11 12:44:45,499 INFO    MainThread:2706181 [wandb_init.py:init():813] calling init triggers
+2025-11-11 12:44:45,499 INFO    MainThread:2706181 [wandb_init.py:init():818] wandb.init called with sweep_config: {}
+config: {'train': {'total_episodes': 10000, 'rollout_size': 256, 'batch_size': 64, 'epochs': 10, 'learning_rate': '1e-4', 'gamma': 0.99, 'lam': 0.95, 'clip_eps': 0.2, 'save_interval': 2000, 'action_std_decay': 0.005, 'min_action_std': 0.05, 'entropy_bonus': 0.01}, 'env': {'max_steps': 500}, 'model': {'hidden_sizes': [256, 128], 'save_path': '/home/bohyeong_RCI/soarm_tutorial/policy/PPO/checkpoints'}, 'robot': {'joint_limits': {'lower': [-1.5708, 0.0, -3.1416, -3.1416, -1.5708, -0.1745], 'upper': [1.5708, 3.1416, 0.0, 0.0, 1.5708, 0.8727]}}, '_wandb': {}}
+2025-11-11 12:44:45,499 INFO    MainThread:2706181 [wandb_init.py:init():861] starting backend
+2025-11-11 12:44:45,709 INFO    MainThread:2706181 [wandb_init.py:init():864] sending inform_init request
+2025-11-11 12:44:45,715 INFO    MainThread:2706181 [wandb_init.py:init():872] backend started and connected
+2025-11-11 12:44:45,718 INFO    MainThread:2706181 [wandb_init.py:init():942] updated telemetry
+2025-11-11 12:44:45,727 INFO    MainThread:2706181 [wandb_init.py:init():966] communicating run to backend with 90.0 second timeout
+2025-11-11 12:44:46,612 INFO    MainThread:2706181 [wandb_init.py:init():1017] starting run threads in backend
+2025-11-11 12:44:46,926 INFO    MainThread:2706181 [wandb_run.py:_console_start():2506] atexit reg
+2025-11-11 12:44:46,926 INFO    MainThread:2706181 [wandb_run.py:_redirect():2354] redirect: wrap_raw
+2025-11-11 12:44:46,927 INFO    MainThread:2706181 [wandb_run.py:_redirect():2423] Wrapping output streams.
+2025-11-11 12:44:46,927 INFO    MainThread:2706181 [wandb_run.py:_redirect():2446] Redirects installed.
+2025-11-11 12:44:46,929 INFO    MainThread:2706181 [wandb_init.py:init():1057] run started, returning control to user process
