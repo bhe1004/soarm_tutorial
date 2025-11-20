@@ -31,6 +31,16 @@ pip install "gym[classic_control]"
 
 ---
 
+## 4. Install Wandb
+
+Install Wandb to log Training
+
+```bash
+pip install wandb
+```
+
+---
+
 # Lecture Link
 
 You can find the lecture videos in the playlist below:
@@ -46,9 +56,18 @@ Department of Mathematics & Department of Data Science, Korea University.
 
 ---
 
-# License
+# Train and Play Your Policy
 
-The code in this repository may be freely referenced, but the lecture materials and slides must be used in accordance with the author’s rights.
+## Train
 
+```bash
+python3 isaac_env/env/train.py --wandb
 ```
+
+## Play
+
+```bash
+python3 isaac_env/env/paly.py --checkpoint=[your check point path]
+```
+
 ```
