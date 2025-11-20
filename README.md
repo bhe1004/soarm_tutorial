@@ -55,13 +55,13 @@ You can find the lecture videos in the playlist below:
 ## Train
 
 ```bash
-python3 isaac_env/env/train.py --wandb
+python isaac_env/env/train.py --wandb
 ```
 
 ## Play
 
 ```bash
-python3 isaac_env/env/paly.py --checkpoint=[your check point path]
+python isaac_env/env/paly.py --checkpoint=[your check point path]
 ```
 
 # Source
