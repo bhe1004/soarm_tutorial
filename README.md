@@ -1,10 +1,7 @@
-````markdown
 # Deep Reinforcement Learning with IsaacSim
 
 This repository provides resources for learning and practicing Deep Reinforcement Learning using the NVIDIA IsaacSim environment.
 It includes installation instructions, lecture links, and reference sources.
-
----
 
 # Installation
 
