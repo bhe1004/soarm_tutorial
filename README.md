@@ -49,12 +49,6 @@ You can find the lecture videos in the playlist below:
 
 ---
 
-# Source
-
-Oh, S. (n.d.). *Deep Reinforcement Learning* [PowerPoint slides].
-Department of Mathematics & Department of Data Science, Korea University.
-
----
 
 # Train and Play Your Policy
 
@@ -70,4 +64,9 @@ python3 isaac_env/env/train.py --wandb
 python3 isaac_env/env/paly.py --checkpoint=[your check point path]
 ```
 
-```
+# Source
+
+Oh, S. (n.d.). *Deep Reinforcement Learning* [PowerPoint slides].
+Department of Mathematics & Department of Data Science, Korea University.
+
+---
